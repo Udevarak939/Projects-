@@ -1,0 +1,17 @@
+version: '3.9'
+services:
+  postgres:
+    image: postgres:16
+    container_name: customer360-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: customer360
+      POSTGRES_USER: customer360
+      POSTGRES_PASSWORD: customer360_dev
+    ports:
+      - "5432:5432"
+    volumes:
+      - customer360_pgdata:/var/lib/postgresql/data
+      - ./sql:/docker-entrypoint-initdb.d:ro
+volumes:
+  customer360_pgdata:

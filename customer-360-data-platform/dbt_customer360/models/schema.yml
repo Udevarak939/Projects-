@@ -3,26 +3,28 @@ version: 2
 sources:
   - name: raw
     schema: RAW
+    database: OLIST_DWH
     tables:
-      - name: orders
-      - name: customers
-      - name: order_items
+      - name: CUSTOMERS
+      - name: ORDERS
+      - name: ORDER_ITEMS
+      - name: ORDER_PAYMENTS
+      - name: ORDER_REVIEWS
+      - name: PRODUCTS
+      - name: SELLERS
 
 models:
   - name: stg_orders
     columns:
       - name: order_id
-        tests:
-          - not_null
-          - unique
+        tests: [not_null, unique]
       - name: customer_id
-        tests:
-          - not_null
+        tests: [not_null]
   - name: fct_customer_360
     columns:
-      - name: customer_unique_id
-        tests:
-          - not_null
-      - name: order_id
-        tests:
-          - not_null
+      - name: customer_id
+        tests: [not_null]
+  - name: dim_customer
+    columns:
+      - name: customer_id
+        tests: [not_null, unique]
