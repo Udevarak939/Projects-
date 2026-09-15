@@ -1,0 +1,16 @@
+name: customer360
+type: dbt
+authors:
+  - name: Udevarak939
+version: '1.0.0'
+config-version: 2
+
+profile: customer360
+model-paths: [models]
+
+models:
+  customer360:
+    staging:
+      +materialized: view
+    marts:
+      +materialized: table
