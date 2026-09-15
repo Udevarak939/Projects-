@@ -1,0 +1,9 @@
+pandas>=2.2,<3
+numpy>=1.26,<3
+pyspark>=3.5,<4
+scikit-learn>=1.5,<2
+matplotlib>=3.9,<4
+seaborn>=0.13,<1
+psycopg2-binary>=2.9,<3
+python-dotenv>=1.0,<2
+boto3>=1.35,<2
