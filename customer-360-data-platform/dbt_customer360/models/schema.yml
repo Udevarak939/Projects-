@@ -1,0 +1,28 @@
+version: 2
+
+sources:
+  - name: raw
+    schema: RAW
+    tables:
+      - name: orders
+      - name: customers
+      - name: order_items
+
+models:
+  - name: stg_orders
+    columns:
+      - name: order_id
+        tests:
+          - not_null
+          - unique
+      - name: customer_id
+        tests:
+          - not_null
+  - name: fct_customer_360
+    columns:
+      - name: customer_unique_id
+        tests:
+          - not_null
+      - name: order_id
+        tests:
+          - not_null
