@@ -1,0 +1,5 @@
+metrics:
+  revenue: SUM(orders.revenue)
+  orders: COUNT(DISTINCT orders.order_id)
+  aov: revenue / NULLIF(orders,0)
+  conversion_rate: conversions / NULLIF(sessions,0)
