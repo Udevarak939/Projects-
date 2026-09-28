@@ -69,3 +69,7 @@ Configure your approved LLM provider using environment variables; never commit A
 
 ## Resume-ready impact
 Built an AI marketing analytics agent that transformed campaign KPIs into evidence-grounded natural-language insights, combining PostgreSQL, Python, anomaly detection, LLM prompting, and Streamlit to accelerate recurring performance analysis.
+
+
+## Dataset
+Uses the real **UCI Bank Marketing** dataset. The UCI repository documents 45,211 campaign records from direct marketing campaigns of a Portuguese banking institution, with the target indicating whether a client subscribed to a term deposit. The download script retrieves the dataset at runtime. citeturn0search3
