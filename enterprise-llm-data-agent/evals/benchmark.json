@@ -1,0 +1,5 @@
+[
+ {"question":"What is revenue by month?","required_metrics":["revenue"]},
+ {"question":"What is average order value by channel?","required_metrics":["aov","orders"]},
+ {"question":"Which segment has the highest conversion rate?","required_metrics":["conversion_rate"]}
+]
