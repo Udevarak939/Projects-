@@ -1,0 +1,5 @@
+pandas
+numpy
+sqlglot
+streamlit
+scikit-learn
