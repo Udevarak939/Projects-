@@ -3,3 +3,4 @@ numpy
 sqlglot
 streamlit
 scikit-learn
+openai
