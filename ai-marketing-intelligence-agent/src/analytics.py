@@ -1,2 +1,4 @@
 import pandas as pd
-df=pd.read_csv('data/campaigns.csv'); g=df.groupby('campaign')[['impressions','clicks','conversions','spend','revenue']].sum(); g['CTR']=g.clicks/g.impressions; g['CVR']=g.conversions/g.clicks.replace(0,1); g['CAC']=g.spend/g.conversions.replace(0,1); g['ROAS']=g.revenue/g.spend.replace(0,1); g.to_csv('data/campaign_kpis.csv'); print(g.round(3))
+df=pd.read_csv('data/raw/bank-full.csv',sep=';'); df['converted']=(df.y=='yes').astype(int)
+summary=df.groupby('job').agg(leads=('converted','size'),conversions=('converted','sum'),conversion_rate=('converted','mean'),avg_balance=('balance','mean')).sort_values('conversion_rate',ascending=False)
+summary.to_csv('data/campaign_kpis.csv'); print(summary.round(4))
