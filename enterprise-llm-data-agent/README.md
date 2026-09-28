@@ -83,3 +83,7 @@ Keep credentials in environment variables and expose only approved read-only too
 
 ## Resume-ready impact
 Engineered an enterprise LLM data analyst agent using RAG, schema-aware Text-to-SQL, tool calling, SQL validation, and evaluation to answer multi-step business questions with evidence-backed insights and production-oriented guardrails.
+
+
+## Dataset
+Uses the real **UCI Bank Marketing** dataset. The UCI repository documents 45,211 campaign records from direct marketing campaigns of a Portuguese banking institution, with the target indicating whether a client subscribed to a term deposit. The download script retrieves the dataset at runtime. citeturn0search3
