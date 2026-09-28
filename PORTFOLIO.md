@@ -1,30 +1,40 @@
-# Data Analytics Portfolio
+# Data & AI Analytics Portfolio
 
-Three production-style projects focused on real-time data, experimentation, customer intelligence, SQL, Python, and business decision-making.
+Production-style projects spanning SQL, Python, BI, machine learning, real-time analytics, and modern LLM applications.
 
-## 1. Amazon Real-Time E-Commerce Analytics
-Path: `amazon-real-time-analytics/`
-- Revenue, AOV, orders and cancellation monitoring
-- Customer segmentation
-- Revenue anomaly detection
-- SQL analytics layer
-- Kafka/Spark/PostgreSQL/Streamlit architecture
+## Data Analyst + AI
 
-## 2. Marketing Campaign & A/B Testing Analytics
-Path: `marketing-ab-testing-analytics/`
-- Funnel analytics
-- Control vs treatment testing
-- Conversion uplift
-- CAC and ROAS
-- Channel performance dashboard
+### 1. AI-Powered Customer Insights & Analytics
+Path: `ai-powered-customer-insights/`
+- Customer CLV, RFM, retention and churn-risk analytics
+- Gradient Boosting model with SHAP explainability
+- SQL KPI layer and Streamlit executive dashboard
+- Evidence-driven customer action prioritization
 
-## 3. Customer Retention & Churn Analytics
-Path: `customer-retention-churn-analytics/`
-- Behavioral feature engineering
-- Churn prediction
-- Customer risk/value prioritization
-- Retention analysis
-- SQL and executive dashboard
+### 2. AI Marketing Intelligence Agent
+Path: `ai-marketing-intelligence-agent/`
+- Campaign funnel, CTR, CVR, CAC and ROAS analytics
+- Automated anomaly detection
+- LLM-generated campaign summaries grounded in KPI evidence
+- Streamlit performance dashboard
 
-## Skills
-SQL | Python | Pandas | NumPy | Statistics | A/B Testing | Customer Analytics | Segmentation | Machine Learning | Real-Time Analytics | PostgreSQL | Kafka | Spark | Streamlit | BI
+## Latest AI / LLM
+
+### 3. Enterprise LLM Data Analyst Agent
+Path: `enterprise-llm-data-agent/`
+- Schema-aware Text-to-SQL workflow
+- RAG over metric definitions and business glossary
+- Read-only SQL validation and tool execution
+- Multi-step analytical planning
+- Evidence-backed LLM answers
+- Evaluation framework for SQL success, metric consistency and unsupported claims
+- OpenAI Responses API integration with environment-based credentials
+
+## Existing Portfolio
+- `customer-360-data-platform/` — AWS/Glue, PySpark, dbt, Snowflake, Power BI, ML and forecasting
+- `amazon-real-time-analytics/` — Kafka, PySpark, streaming KPIs and anomaly detection
+- `customer-retention-churn-analytics/` — churn modeling and retention analytics
+- `marketing-ab-testing-analytics/` — experimentation, funnel and campaign analytics
+
+## Core Skills
+SQL | Python | PostgreSQL | Pandas | NumPy | Power BI | Tableau | Statistics | A/B Testing | Machine Learning | SHAP | Kafka | PySpark | AWS | Snowflake | dbt | LLMs | RAG | Text-to-SQL | Tool Calling | Agentic AI | Streamlit
