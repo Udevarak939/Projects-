@@ -67,3 +67,7 @@ streamlit run dashboard/app.py
 
 ## Resume-ready impact
 Built an end-to-end AI-assisted customer analytics platform combining SQL, Python, ML, SHAP, and Streamlit to segment customers, score churn risk, explain model drivers, and convert behavioral signals into retention actions.
+
+
+## Dataset
+Uses the real **UCI Bank Marketing** dataset. The UCI repository documents 45,211 campaign records from direct marketing campaigns of a Portuguese banking institution, with the target indicating whether a client subscribed to a term deposit. The download script retrieves the dataset at runtime. citeturn0search3
