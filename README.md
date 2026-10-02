@@ -4,6 +4,8 @@ End-to-end portfolio for Data Analyst, Business Intelligence, Analytics Engineer
 
 ## Featured Projects
 
+| [Financial Business Analytics Platform](./financial-business-analytics-platform/) | Financial planning, variance analysis, forecasting, scenarios, SQL, Python |
+
 | Project | Focus |
 |---|---|
 | [AI-Powered Customer Insights & Analytics](./ai-powered-customer-insights/) | SQL, Python, ML, SHAP, customer analytics |
