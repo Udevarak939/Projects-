@@ -1,0 +1,25 @@
+month,region,product,channel,customer_segment,actual_revenue,budget_revenue,prior_year_revenue,cogs,opex
+2026-01,North,Cloud Analytics,Direct,Enterprise,420000,400000,360000,176400,112000
+2026-01,South,Cloud Analytics,Partner,Mid-Market,295000,310000,270000,132750,86000
+2026-01,West,Payments,Direct,Enterprise,510000,480000,430000,249900,118000
+2026-01,East,Payments,Digital,SMB,225000,215000,205000,123750,64000
+2026-02,North,Cloud Analytics,Direct,Enterprise,438000,415000,372000,184980,113500
+2026-02,South,Cloud Analytics,Partner,Mid-Market,302000,315000,276000,135900,87500
+2026-02,West,Payments,Direct,Enterprise,528000,500000,441000,258720,119500
+2026-02,East,Payments,Digital,SMB,231000,220000,211000,127050,64500
+2026-03,North,Cloud Analytics,Direct,Enterprise,452000,430000,382000,187080,115000
+2026-03,South,Cloud Analytics,Partner,Mid-Market,298000,320000,281000,134100,89000
+2026-03,West,Payments,Direct,Enterprise,541000,515000,452000,265090,121000
+2026-03,East,Payments,Digital,SMB,239000,225000,218000,131450,66000
+2026-04,North,Cloud Analytics,Direct,Enterprise,469000,445000,397000,192290,117000
+2026-04,South,Cloud Analytics,Partner,Mid-Market,306000,325000,287000,137700,90000
+2026-04,West,Payments,Direct,Enterprise,554000,530000,463000,271460,122500
+2026-04,East,Payments,Digital,SMB,244000,230000,223000,134200,67000
+2026-05,North,Cloud Analytics,Direct,Enterprise,481000,455000,409000,195210,118500
+2026-05,South,Cloud Analytics,Partner,Mid-Market,312000,330000,292000,140400,92000
+2026-05,West,Payments,Direct,Enterprise,567000,545000,474000,277830,124000
+2026-05,East,Payments,Digital,SMB,252000,235000,229000,138600,68000
+2026-06,North,Cloud Analytics,Direct,Enterprise,495000,470000,421000,200475,120000
+2026-06,South,Cloud Analytics,Partner,Mid-Market,318000,338000,298000,143100,93500
+2026-06,West,Payments,Direct,Enterprise,582000,560000,486000,285180,125500
+2026-06,East,Payments,Digital,SMB,258000,242000,236000,141900,69000
