@@ -1,0 +1,25 @@
+transaction_id,transaction_date,region,product,channel,customer_segment,orders,units,revenue,cogs
+TX0001,2026-01-05,North,Cloud Analytics,Direct,Enterprise,1,120,420000,176400
+TX0002,2026-01-08,South,Cloud Analytics,Partner,Mid-Market,1,82,295000,132750
+TX0003,2026-01-11,West,Payments,Direct,Enterprise,1,145,510000,249900
+TX0004,2026-01-16,East,Payments,Digital,SMB,1,64,225000,123750
+TX0005,2026-02-04,North,Cloud Analytics,Direct,Enterprise,1,124,438000,184980
+TX0006,2026-02-09,South,Cloud Analytics,Partner,Mid-Market,1,85,302000,135900
+TX0007,2026-02-13,West,Payments,Direct,Enterprise,1,150,528000,258720
+TX0008,2026-02-18,East,Payments,Digital,SMB,1,66,231000,127050
+TX0009,2026-03-03,North,Cloud Analytics,Direct,Enterprise,1,127,452000,187080
+TX0010,2026-03-10,South,Cloud Analytics,Partner,Mid-Market,1,83,298000,134100
+TX0011,2026-03-15,West,Payments,Direct,Enterprise,1,153,541000,265090
+TX0012,2026-03-22,East,Payments,Digital,SMB,1,68,239000,131450
+TX0013,2026-04-06,North,Cloud Analytics,Direct,Enterprise,1,131,469000,192290
+TX0014,2026-04-11,South,Cloud Analytics,Partner,Mid-Market,1,86,306000,137700
+TX0015,2026-04-18,West,Payments,Direct,Enterprise,1,156,554000,271460
+TX0016,2026-04-23,East,Payments,Digital,SMB,1,70,244000,134200
+TX0017,2026-05-02,North,Cloud Analytics,Direct,Enterprise,1,134,481000,195210
+TX0018,2026-05-12,South,Cloud Analytics,Partner,Mid-Market,1,88,312000,140400
+TX0019,2026-05-19,West,Payments,Direct,Enterprise,1,159,567000,277830
+TX0020,2026-05-27,East,Payments,Digital,SMB,1,72,252000,138600
+TX0021,2026-06-05,North,Cloud Analytics,Direct,Enterprise,1,138,495000,200475
+TX0022,2026-06-14,South,Cloud Analytics,Partner,Mid-Market,1,90,318000,143100
+TX0023,2026-06-21,West,Payments,Direct,Enterprise,1,162,582000,285180
+TX0024,2026-06-26,East,Payments,Digital,SMB,1,74,258000,141900
